@@ -26,6 +26,36 @@ video {
 /*===============================
 =            nav-bar            =
 ===============================*/
+.nav-bar{
+  width: 970px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .container {
     overflow: hidden;
     background-color: transparent;
@@ -44,15 +74,18 @@ video {
 .dropdown {
     float: left;
     overflow: hidden;
+    
+    
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;    
+    font-size: 20px;    
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
+    
 }
 
 .container a:hover, .dropdown:hover .dropbtn {
